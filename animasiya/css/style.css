@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container .box{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: -30px;
+    border-radius: 50%;
+    border: 0.1px solid transparent;
+    border-top: 4px  rgb(64, 22, 202);
+    animation: animate 4s linear infinite;
+}
+
+.container .box1{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: -30px;
+    border-radius: 50%;
+    border: 0.1px solid transparent;
+    border-top: 4px  brown;
+    animation: animate 4s linear infinite;
+}
+.container .box2{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: -30px;
+    border-radius: 50%;
+    border: 0.1px solid transparent;
+    border-top: 4px rgb(19, 202, 6);
+    animation: animate 4s linear infinite;
+}
+
+
+
+.container .box2::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgb(255, 0, 0);
+    box-shadow: 0 0 0 5px rgb(237, 14, 14),
+    0 0 0 10px rgb(227, 53, 53),
+    0 0 0 20px rgb(194, 73, 73),
+    0 0 0 30px rgb(154, 85, 85),
+    0 0 0 50px rgb(179, 114, 114),
+    0 0 0 60px rgb(239, 106, 106),
+    0 0 0 70px rgb(175, 78, 78);
+    
+}
+.container .box1::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgb(4, 157, 27);
+    box-shadow: 0 0 0 5px rgb(39, 142, 4),
+    0 0 0 10px rgb(28, 188, 52),
+    0 0 0 20px rgb(58, 169, 102),
+    0 0 0 30px rgb(97, 231, 135),
+    0 0 0 50px rgb(124, 244, 146),
+    0 0 0 60px rgb(144, 231, 136),
+    0 0 0 70px rgb(138, 241, 171);
+    
+}
+
+.container .box::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgb(40, 3, 127);
+    box-shadow: 0 0 0 5px rgb(48, 24, 235),
+    0 0 0 10px rgb(67, 59, 211),
+    0 0 0 20px rgb(64, 72, 165),
+    0 0 0 30px rgb(92, 92, 154),
+    0 0 0 50px rgb(89, 94, 235),
+    0 0 0 60px rgb(124, 158, 237),
+    0 0 0 70px rgb(129, 175, 225);
+    
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
+.container .box:nth-child(3){
+    position: absolute;
+    top: -66.66px;
+}
+.container .box1:nth-child(3){
+    position: absolute;
+    top: -66.66px;
+}
+.container .box2:nth-child(3){
+
+    position: absolute;
+    top: -66.66px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
