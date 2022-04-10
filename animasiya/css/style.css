@@ -17,34 +17,34 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+ 
 }
 
 .container .box{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 240px;
+    height: 250px;
     margin: -30px;
     border-radius: 50%;
-    border: 0.1px solid transparent;
+   border: 0.1px solid transparent;
     border-top: 4px  rgb(64, 22, 202);
     animation: animate 4s linear infinite;
 }
 
 .container .box1{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 240px;
+    height: 250px;
     margin: -30px;
-    border-radius: 50%;
+     border-radius: 50%;
     border: 0.1px solid transparent;
     border-top: 4px  brown;
     animation: animate 4s linear infinite;
 }
 .container .box2{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 240px;
+    height: 250px;
     margin: -30px;
     border-radius: 50%;
     border: 0.1px solid transparent;
@@ -70,8 +70,27 @@ body{
     0 0 0 50px rgb(179, 114, 114),
     0 0 0 60px rgb(239, 106, 106),
     0 0 0 70px rgb(175, 78, 78);
+     
     
 }
+
+.box span{
+    color: brown;
+    font-size: 100px;
+    
+}
+.box1 span{
+    color: rgb(156, 8, 172);
+    font-size: 100px;
+}
+.box2 span{
+    color: rgb(228, 232, 10);
+    font-size: 100px;
+   
+    
+}
+
+
 .container .box1::before{
     content: "";
     position: absolute;
@@ -99,6 +118,7 @@ body{
     border-radius: 50%;
     width: 15px;
     height: 15px;
+    
     background: rgb(40, 3, 127);
     box-shadow: 0 0 0 5px rgb(48, 24, 235),
     0 0 0 10px rgb(67, 59, 211),
